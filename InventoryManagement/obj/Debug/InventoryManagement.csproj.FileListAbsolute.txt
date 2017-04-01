@@ -1,0 +1,13 @@
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe.config
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.pdb
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csprojResolveAssemblyReference.cache
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Form1.resources
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Properties.Resources.resources
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csproj.GenerateResource.Cache
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.exe
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.pdb
+C:\Users\gg9721pp\OneDrive\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.UpdateForm.resources
+C:\Users\Kayla\Desktop\C#\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe.config
+C:\Users\Kayla\Desktop\C#\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.exe
+C:\Users\Kayla\Desktop\C#\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.pdb
