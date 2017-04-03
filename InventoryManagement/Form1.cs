@@ -16,7 +16,13 @@ namespace InventoryManagement
         {
             InitializeComponent();
         }
-
+        //global list of articles of clothing so they can be accessed from anywhere 
+        string[,] listShirt =
+                { {"T-shirt","100"},{ "A-shirt","55"},{  "Ripped","33" },{ "Dress", "222"},{ "Fancy", "52"},{ "Flannel", "32"},{ "Puffy","82"} };
+        string[,] listPants =
+               { {"Khakis","4343"},{ "Capris","455"},{  "Ripped","44" },{ "Hammer ", "262"},{ "Fancy", "42"},{ "Flannel ", "333"},{ "Puffy ","82"} };
+        string[,] listShoes =
+                { {"Boots","100"},{"Tap","55"},{"Fancy","33"},{"Ripped", "222"} };
         private void ClickRadioButton(object sender, EventArgs e)
         {
             Options.Items.Clear();
@@ -25,8 +31,7 @@ namespace InventoryManagement
             if (rdoShirts.Checked)
             {
 
-                string[,] listShirt =
-                { {"T-shirt","100"},{ "A-shirt","55"},{  "Ripped","33" },{ "Dress", "222"},{ "Fancy", "52"},{ "Flannel", "32"},{ "Puffy","82"} };
+                
                 string productsString = "";
 
                 //for loop to run through our RECTANGULAR array
@@ -45,8 +50,7 @@ namespace InventoryManagement
             // making the radio buttons point to array holding different types of pants
             if (rdoPants.Checked)
             {
-                string[,] listPants =
-               { {"Khakis","4343"},{ "Capris","455"},{  "Ripped","44" },{ "Hammer ", "262"},{ "Fancy", "42"},{ "Flannel ", "333"},{ "Puffy ","82"} };
+                
                 string productsString = "";
 
                 //for loop to run through our RECTANGULAR array
@@ -65,8 +69,7 @@ namespace InventoryManagement
             // making the radio buttons point to the array holding different types of shoes
             if (rdoShoes.Checked)
             {
-                string[,] listShoes =
-                { {"Boots","100"},{"Tap","55"},{"Fancy","33"},{"Ripped", "222"} };
+                
                 string productsString = "";
 
                 //for loop to run through our RECTANGULAR array
@@ -92,8 +95,30 @@ namespace InventoryManagement
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            //this message box displays that this function isnt running yet
-            MessageBox.Show("this option not availible yet");
+            string[,] List = null;
+            //checks what radio button is selected to see what list to use 
+            if (rdoPants.Checked) List = listPants;
+            if (rdoShirts.Checked) List = listShirt;
+            if (rdoShoes.Checked) List = listShoes;
+            //gets the index of the selected item 
+            int index = Options.SelectedIndex;
+            //validation --probably a better way? 
+            if (index != -1 && List != null)
+            {
+                
+                //gets the number of items in string form from selected item 
+                string currentQuantity = List[index, 1];
+                //converts to int so we can perform addition 
+                int currentAmount = Convert.ToInt32(currentQuantity);
+                //adds on eto the current amount 
+                int newAmount = currentAmount + 1;
+                //converts back to string to add back into list 
+                string newQuantity = Convert.ToString(newAmount);
+                //changes the quantity in the list 
+                List[index, 1] = newQuantity;
+                //calls the clickradiobutton to display new item quantity 
+                ClickRadioButton(sender, e);
+            }
         }
     }
 }
