@@ -18,3 +18,13 @@ C:\Users\Kayla\Desktop\C#\InventoryManagement\InventoryManagement\obj\Debug\Inve
 C:\Users\Kayla\Desktop\C#\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Properties.Resources.resources
 C:\Users\Kayla\Desktop\C#\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.UpdateForm.resources
 C:\Users\Kayla\Desktop\C#\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csproj.GenerateResource.Cache
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe.config
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.pdb
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csprojResolveAssemblyReference.cache
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Form1.resources
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Properties.Resources.resources
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.UpdateForm.resources
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csproj.GenerateResource.Cache
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.exe
+C:\Users\Stephanie\Documents\GitHub\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.pdb
