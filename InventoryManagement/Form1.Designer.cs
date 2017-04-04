@@ -123,6 +123,7 @@
             this.btnRemove.TabIndex = 4;
             this.btnRemove.Text = "Remove -1";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // Form1
             // 

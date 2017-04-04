@@ -120,5 +120,33 @@ namespace InventoryManagement
                 ClickRadioButton(sender, e);
             }
         }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            string[,] List = null;
+            //checks what radio button is selected to see what list to use 
+            if (rdoPants.Checked) List = listPants;
+            if (rdoShirts.Checked) List = listShirt;
+            if (rdoShoes.Checked) List = listShoes;
+            //gets the index of the selected item 
+            int index = Options.SelectedIndex;
+            //validation  
+            if (index != -1 && List != null)
+            {
+
+                //gets the number of items in string form from selected item 
+                string currentQuantity = List[index, 1];
+                //converts to int so we can perform subtraction
+                int currentAmount = Convert.ToInt32(currentQuantity);
+                //subtracts one from the current amount 
+                int newAmount = currentAmount - 1;
+                //converts back to string to add back into list 
+                string newQuantity = Convert.ToString(newAmount);
+                //changes the quantity in the list 
+                List[index, 1] = newQuantity;
+                //calls the clickradiobutton to display new item quantity 
+                ClickRadioButton(sender, e);
+            }
+        }
     }
 }
